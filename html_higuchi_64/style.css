@@ -1,0 +1,307 @@
+a {
+    text-decoration: none;  
+}
+
+body {
+    border-top: 10px solid yellow;
+}
+
+p {
+    font-size: 16px;
+    color: #222222:
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 60px;
+}
+h2 {
+    font-size: 18px;
+}
+
+/* ここからナビ */
+.navi{
+    width: 1200px;
+    display: flex;
+    justify-content:space-between;
+}
+.navi ul {
+}
+
+.navi ul li {
+    font-size: 21px;
+    margin-right: 50px;
+    margin-top: 50px;
+    list-style: none;
+    color: #000;
+    display:inline;
+}
+
+/* ここからメインビジュアル */
+.mainvisual{
+    width: 1200px;
+    height: 450px;
+    position: relative;
+    margin : 0 auto;
+}
+
+.mainvisual img{
+    width:100%;
+}
+
+.mainvisual h1{
+    position: absolute;
+    top:150px;
+    left: 250px;
+    /* 真ん中に置く方法は簡単なのないのか？？ */
+    font-size:50px;
+    color: white;
+    padding:0;
+    margin:0;
+}
+
+.mainvisual p{
+    position: absolute;
+    top:230px;
+    left: 250px;
+    /* 真ん中に置く方法は簡単なのないのか？？ */
+    font-size:30px;
+    color: white;
+    padding:0;
+    margin:0;
+}
+
+/* ここからabout */
+#about {
+    text-align:center;
+    font-size:24px;
+    /* 上の画像との距離がわからん */
+}
+#about h1{
+    color: #ffd61a;
+}
+.abouttext{
+    font-size: 18px;
+}
+
+
+.pic {
+    display:table;
+    width: 1200px;
+    margin : 0 auto;
+    margin-top: 80px;
+
+}
+.pic li {
+    display:table-cell;
+    width:100%
+    margin-bottom: 60px;
+}
+
+/* ここからcourse */
+#course {
+    text-align:center;
+    font-size:24px;
+    margin-bottom: 60px;
+
+}
+
+.course1 {
+    display: flex; 
+    gap: 0;
+    justify-content: center; 
+}
+.course1 img {
+    width: 600px; /*画像サイズ指定*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;  
+}
+.course1text {
+    width: 600px;
+    margin: 0;
+    padding: 0; 
+    background-color: rgb(239, 239, 239); 
+}
+.course1text h1 {
+    margin-top:120px
+}
+
+.course1text p {
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.course2 {
+    display: flex; 
+    gap: 0;
+    justify-content: center; 
+}
+.course2 img {
+    width: 600px; /*画像サイズ指定*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;  
+}
+.course2text {
+    width: 600px;
+    margin: 0;
+    padding: 0; 
+    background-color: rgb(239, 239, 239); 
+}
+.course2text h1 {
+    margin-top:120px
+}
+
+.course2text p {
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.course3 {
+    display: flex; 
+    gap: 0;
+    justify-content: center; 
+}
+.course3 img {
+    width: 600px; /*画像サイズ指定*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;  
+}
+.course3text {
+    width: 600px;
+    margin: 0;
+    padding: 0; 
+    background-color: rgb(239, 239, 239); 
+}
+.course3text h1 {
+    margin-top:120px
+}
+
+.course3text p {
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+#news{
+    text-align:center;
+
+}
+
+#contact{
+    text-align:center;
+}
+
+#news h1 {
+    color: #ffd61a;
+}
+.newsimg {
+    display: flex;
+    justify-content: center;
+}
+.newsimg img {
+    margin-left: 30px;
+    width: 300px;
+}
+
+.newstext {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+
+}
+
+.newstext p {
+    width: 300px;
+    margin-bottom: 60px;
+}
+
+.more {
+    font-size: 18px;
+    color: white;
+    background-color: #ffd61a;
+    width: 300px;
+    height: 60px;
+    margin : 0 auto;
+    text-align:center;
+    line-height: 60px;
+
+}
+
+#access {
+    text-align: center;
+    background-color: rgb(239, 239, 239); 
+    width: 1200px;
+    margin : 0 auto;
+    gap: 50px;
+
+}
+#access h1{
+    margin-top: 60px;
+    /* マージンがとれない */
+}
+
+.accesscontent {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    /* マージンがとれない */
+}
+
+.accesstitle {
+    width: 550px;
+}
+.accesstext {
+    width: 650px;
+    text-align: left  
+}
+
+#access p {
+    margin-top: 30px;
+}
+
+.setsumei {
+    margin-top: 60px;
+}
+
+.form{
+    width:640px;
+    margin:0 auto;
+    margin-top: 70px;
+}
+
+.submit-btn{
+    width: 300px;
+    height: 60px;
+    background-color: #ffd61a;
+}
+
+.form th{
+    text-align: left;
+    width: 240px;
+}
+
+
+.form input:not(input[type="checkbox"]), .contact-form textarea{
+	width:328px;
+    align-items: flex-start;
+}
+.form input:not(input[type="rcheckbox"]){
+	height:36px;
+}
+.form textarea{
+    width:328px;
+	height:200px;
+}
+.form label{
+    display:block;
+}
+
+.form input[type="rcheckbox"]{
+    align-items: flex-start;
+}
+
